@@ -10,7 +10,7 @@ test("creates a zookeeper object", () => {
     );
 
     expect (zookeeper.name).toBe("Darlene");
-    expect (zookeeper.id).toBe("jhgdha3ng2");
+    expect (zookeeper.id).toBe("jhgdja3ng2");
 });
 
 test ("filterByQuery", () => {
@@ -48,8 +48,8 @@ test ("findById", () => {
             favoriteAnimal: "bear",
         },
     ];
-    const updatedZookeepers = findById("3", startingZookeepers);
-    expect (results.name).toBe("Isabella");
+    const result = findById("3", startingZookeepers);
+    expect(result.name).toBe("Isabella");
 });
 
 test ("validates age", () => {
