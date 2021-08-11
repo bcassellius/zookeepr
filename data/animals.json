@@ -146,6 +146,17 @@
         "goofy"
       ],
       "id": "14"
+    },
+    {
+      "name": "Skippy",
+      "species": "Red Panda",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "zany",
+        "loving",
+        "goofy"
+      ],
+      "id": "15"
     }
   ]
 }
